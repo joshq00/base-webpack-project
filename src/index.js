@@ -1,11 +1,8 @@
-import { Component } from 'react';
+import 'react';
 import { render } from 'react-dom';
 
 import App from './containers/App';
 
 let el = document.querySelector( 'main' );
 
-export default render(
-	<App />,
-	el
-);
+export default render( <App />, el );
