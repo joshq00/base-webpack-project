@@ -1,0 +1,5 @@
+image: _/node
+script:
+- npm install
+- npm run build
+
